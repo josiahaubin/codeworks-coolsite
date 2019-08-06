@@ -29,4 +29,13 @@
   background-color: #1C4587;
   overflow: hidden;
   border: 1px solid black;
+  height: 100px;
+}
+.image{
+  height: 100px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
 }
