@@ -25,3 +25,8 @@
   overflow: hidden;
   margin-top: 50px;
 }
+.footer{
+  background-color: #1C4587;
+  overflow: hidden;
+  border: 1px solid black;
+}
