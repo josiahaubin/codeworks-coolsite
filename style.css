@@ -3,6 +3,7 @@
   color: white;
   text-align: center;
   border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .paragraph{
   margin-right: 200px;
@@ -11,6 +12,7 @@
 }
 .paragraph h2{
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .sidebar{
   height: 100%;
@@ -23,15 +25,22 @@
 }
 .sidebar h3{
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+.sidebar h3:hover{
+  color:blue;
+  text-decoration: underline;
 }
 .sidebar p{
   text-align: center;
   font-size: 12px;
+  margin-top: 5px;
 }
 .topbar{
   background-color: #D0E1F2;
   overflow: hidden;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .footer{
   background-color: #1C4587;
@@ -40,10 +49,12 @@
   height: 100px;
 }
 .image{
-  height: 100px;
-  width: 50%;
+  height: 125px;
+  width: 125px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 55px;
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 15px;
 }
